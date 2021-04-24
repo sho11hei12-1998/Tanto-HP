@@ -1,0 +1,28 @@
+/*フォントの設定*/
+html {
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+#header_nav a{
+    color: #fff;
+}
+#header_nav a:hover{
+    color: hsla(0, 0%, 100%, 0.363);
+}
+
+.info{
+    display: flex;
+    padding: 0 80px;
+}
+.info_img{
+    width: 50%;
+}
+.info_text{
+    width: 50%;
+}
+
+iframe{
+    width: 100%;
+    padding: 50px;
+}

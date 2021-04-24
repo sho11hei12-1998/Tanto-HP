@@ -1,0 +1,107 @@
+/*IE10の設定*/
+	@media all and (-ms-high-contrast:none) {
+        #all_foods{
+            width: 100%;
+        }
+	}
+
+/*IE11の設定*/
+	_:-ms-lang(x)::-ms-backdrop, #all_foods{
+		width: 100%;
+    }
+    
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {
+    .couse_1{
+        display: block;
+    }
+    .couse_1_text{
+        width: 100%;
+        order: 2;
+        padding: 30px 50px 0 50px;
+    }
+    .couse_1_img{
+        width: 100%;
+        order: 1;
+        margin: 0;
+    }
+
+    /*その他のコース*/
+    .couse_ex{
+        display: block;
+        margin: 70px;
+        border-top: 2px solid #515151;
+        border-bottom: 2px solid #515151;
+    }
+    .couse_2{
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid #515151;
+    }
+    .couse_3{
+        width: 100%;
+    }
+
+    /*店内*/
+    .inview{
+        padding: 80px;
+    }
+    .inview_1{
+        display: block;
+    }
+    .inview_1_img{
+        width: 100%;
+    }
+    .inview_1 p{
+        width: 100%;
+        padding: 40px;
+    }
+    .inview_2{
+        display: block;
+    }
+    .inview_2_img{
+        width: 100%;
+        order: 1;
+    }
+    .inview_2 p{
+        width: 100%;
+        padding: 40px;
+        order: 2;
+    }
+}
+
+/* スマホ向けレイアウト */
+@media (max-width: 670px) {
+    .couse_1_img{
+        width: 100%;
+        padding: 30px;
+    }
+    .drink{
+        margin: 0 30px;
+    }
+
+    /*店内*/
+    .inview{
+        padding: 80px;
+    }
+    .inview_1{
+        display: block;
+    }
+    .inview_1_img{
+        width: 100%;
+    }
+    .inview_1 p{
+        width: 100%;
+        padding: 40px;
+    }
+    .inview_2{
+        display: block;
+    }
+    .inview_2_img{
+        width: 100%;
+    }
+    .inview_2 p{
+        width: 100%;
+        padding: 40px;
+    }
+}

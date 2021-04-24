@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ja" style="background-image:url(images/background.jpg);">
+
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- メタディスクリプションのテキストを記述（スマホ：50文字程度、PC：120文字程度） -->
+    <meta name=”description” content=”野々市に位置する焼き鳥・居酒屋「焼き鳥ダイニング・たんと」の宴会ページです。たんとではご宴会利用や貸切も歓迎しています。また、飲み放題付きのコース料理もございます。最大40名までの宴会利用が可能です。”>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/party.css">
+    <link rel="stylesheet" href="css/party_responsive.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="fontawesome-free-5.9.0-web/css/all.css" rel="stylesheet"> <!--load all styles -->
+    <link rel = "ショートカットアイコン"  href = "favicon.ico"> <!-- ファビコン -->
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="http://tanto-nonoichi.main.jp/sp/"><!-- スマホページがあることをGoogleに認識させる -->
+
+    <title>焼き鳥 Dinning たんと | ご宴会</title><!-- タイトル -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/userAgent.js"></script><!-- スマホページ振り分け.js -->
+    <script>
+		//共通パーツ読み込み
+		$(function() {
+		$("#header").load("header.html");
+		$("#footer").load("footer.html");
+		});　
+	</script>
+
+    <style>/* css記述 */
+    /*
+    *{
+        outline: 1px solid #ff0000;
+    }
+    */
+    
+    </style>
+</head>
+
+<body style="padding-top: 5rem"><!-- html記述 -->
+
+<!--ヘッダー-->
+<div id="header"></div>
+
+<!--メイン-->
+<main style="background-image:url(images/background.jpg);">
+
+	<div class="card">
+		<img class="card-img" src="images/enkai_main_2.jpg" alt="宴会メイン画像">
+		<div class="card-img-overlay">
+			<div class="text-white">
+				<h1 class="text-center" id="img_text">宴会</h1>
+			</div>
+		</div>
+    </div>
+    
+    <!--おすすめコース-->
+    <div class="osusume text-white">
+        <h1 class="text-center px-5">たんと<br>おすすめコース</h1>
+
+        <div class="couse_1 text-center">
+            <div class="couse_1_text">
+                <p>飲み放題　90分付き</p>
+                <h4 style="color: #F0D298;">たんとコース</h4>
+                <h4 class="py-3">お一人様　<b>3,500円</b> (税込み)</h4>
+                <P class="border">コース内容（11品）</P>
+                <!-- table -->
+                <table class="table text-white text-left">
+                    <tr><th>・枝豆</th></tr>
+                    <tr><th>・たたききゅうり</th></tr>
+                    <tr><th>・本日のサラダ</th></tr>
+                    <tr><th>・焼き物3種（例：若どり、ソーセージ、ささみ）</th></tr>
+                    <tr><th>・揚げ物3種（例：とり唐揚げ、ポテトフライ、なんこつ唐揚げ）</th></tr>
+                    <tr><th>・サーモンカルパッチョor牛ロース炒め</th></tr>
+                    <tr><th>・アイスクリーム or 焼きおにぎり</th></tr>
+                </table>
+            </div>
+            <div class="couse_1_img mt-5">
+                <img src="images/all_foods.jpg" alt="宴会料理" class="img-fluid" id="all_foods" style="width: 1300px;">
+            </div>
+        </div>
+    </div>
+
+    <!-- その他のコース -->
+    <div class="couse_ex text-white text-center">
+        <!-- お手軽コース -->
+        <div class="couse_2 p-5">
+            <p>飲み放題　90分付き</p>
+            <h4 style="color: #F0D298;">お手軽コース</h4>
+            <h4 class="py-3">お一人様　<b>3,300円</b> (税込み)</h4>
+            <P class="border">コース内容（10品）</P>
+            <!-- table -->
+            <table class="table text-white text-left">
+                <tr><th>・枝豆</th></tr>
+                <tr><th>・たたききゅうり</th></tr>
+                <tr><th>・本日のサラダ</th></tr>
+                <tr><th>・焼き物3種（例：若どり、ソーセージ、ささみ）</th></tr>
+                <tr><th>・揚げ物3種（例：とり唐揚げ、ポテトフライ、なんこつ唐揚げ）</th></tr>
+                <tr><th>・アイスクリームor焼きおにぎり</th></tr>
+            </table>
+        </div>
+
+        <!-- 満腹コース -->
+        <div class="couse_3 p-5">
+            <p>飲み放題　90分付き</p>
+            <h4 style="color: #F0D298;">満腹コース</h4>
+            <h4 class="py-3">お一人様　<b>4,000円</b> (税込み)</h4>
+            <P class="border">コース内容（12品）</P>
+            <!-- table -->
+            <table class="table text-white text-left">
+                <tr><th>・枝豆</th></tr>
+                <tr><th>・たたききゅうり</th></tr>
+                <tr><th>・本日のサラダ</th></tr>
+                <tr><th>・焼き物3種（例：若どり、ソーセージ、ささみ）</th></tr>
+                <tr><th>・揚げ物3種（例：とり唐揚げ、ポテトフライ、なんこつ唐揚げ）</th></tr>
+                <tr><th>・サーモンカルパッチョ</th></tr>
+                <tr><th>・牛ロース炒め</th></tr>
+                <tr><th>・アイスクリームor焼きおにぎり</th></tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- 飲み放題メニュー -->
+    <div class="drink text-white text-center mb-5">
+        <h1 class="p-5">飲み放題メニュー</h1>
+        <h5>飲み放題付（90分・2時間制）<br>
+                ※追加料金で延長できます</h5>
+
+        <div class="d-inline-flex py-5">
+            <ul class="text-left mr-5">
+                <li>アサヒスーパードライ</li>
+                <li>ハイボール各種</li>
+                <li>チューハイ各種</li>
+                <li>焼酎（麦・芋）</li>
+            </ul>
+            <ul class="text-left">
+                <li>カクテル（カシス・ピーチ・ライチ）</li>
+                <li>日本酒（大・小）</li>
+                <li>梅酒（ロック・ソーダ）</li>
+                <li>ソフトドリンク各種</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 店内のご案内 -->
+    <div class="inview text-white text-center">
+        <h1 class="px-5 pb-5">店内のご案内</h1>
+        <div class="inview_1">
+            <div class="inview_1_img">
+                <img src="images/counter.png" alt="カウンター席" class="img-fluid">
+            </div>
+            <p>【気楽に立ち寄れるカウンター全9席】<br>
+            お仕事帰りに2杯、3杯…と<br>
+            店長オススメの逸品料理とご一緒にどうですか。</p>
+        </div>
+
+        <div class="inview_2">
+            <p>【広々としたお座敷席（6名掛けテーブル×3）と<br>
+                掘りごたつ制（6名掛けテーブル×1、4人掛けテーブル×1）】
+                お座敷席、掘りごたつ席合わせた最大40名までの宴会利用OK！<br>
+                忘年会、新年会、女子会等各種宴会にどうぞお使いください。</p>
+            <div class="inview_2_img">
+                <img src="images/zasiki.png" alt="テーブル席" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    
+
+</main>
+
+<!-- フッター -->
+<div id="footer"></div>
+
+<script src="js/warp.js"></script>
+<script src="js/id_transition.js"></script>
+</body>
+
+</html>

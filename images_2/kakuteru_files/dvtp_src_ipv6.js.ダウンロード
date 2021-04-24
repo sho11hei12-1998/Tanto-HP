@@ -1,0 +1,16 @@
+﻿(function () {
+    function dv_GetIP() {
+        var ipv6 = '[CDN_IPV6]';
+        return ipv6;
+    }
+
+    if (document.currentScript) {
+        var queryString = document.currentScript.src.replace(/^[^\?]+\??/, '');
+        var matches = queryString.match(/ipv6Callback=([^&$]*)/);
+        if (matches && matches.length === 2) {
+            var ipv6CallbackFunction = matches[1];
+            if (typeof (window[ipv6CallbackFunction]) === 'function')
+                window[ipv6CallbackFunction](true, 'dvtp_src_ipv6.js', dv_GetIP());
+        }
+    }
+})();

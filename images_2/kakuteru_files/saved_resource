@@ -1,0 +1,32 @@
+
+var ftGUID_3836498="41887A3F160C2D";
+var ftConfID_3836498="0";
+var ftParams_3836498="ftx=&fty=&ftadz=&ftscw=&ft_custom=781tN83_HQ7v2Q0G_MQeL9vZHXTa_yRdCfo=&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fgoogleads.g.doubleclick.net%2Fpagead%2Fads%3Fclient%3Dca-pub-5938113127382447%26output%3Dhtml%26h%3D280%26slotname%3D6964591887%26adk%3D1604006905%26adf%3D2524403905%26w%3D336%26lmt%3D1573745613%26guci%3D2.2.0.0.2.2.0.0%26url%3Dhttps%253A%252F%252Fwww.photo-ac.com%252Fmain%252Fsearch%253Fq%253D%2525E3%252582%2525AB%2525E3%252582%2525AF%2525E3%252583%252586%2525E3%252583%2525AB%2526srt%253Ddlrank%26flash%3D0%26wgl%3D1%26adsid%3DChAIgJO07gUQ2rrMv-nU_dAZEi8AhR31VJbfbcydX6noZ5jU-nZ0oaVnWdBMkeNAlPrTPr3XvOgfR7D8slDTahH7KQ%26dt%3D1573745613208%26bpp%3D12%26bdt%3D968%26fdt%3D13%26idt%3D13%26shv%3Dr20191106%26cbv%3Dr20190131%26saldr%3Dsa%26abxe%3D1%26correlator%3D3074951265332%26frm%3D20%26pv%3D2%26ga_vid%3D1033913643.1573736841%26ga_sid%3D1573745613%26ga_hid%3D1539425920%26ga_fc%3D0%26iag%3D0%26icsg%3D175930704793258%26dssz%3D55%26mdo%3D0%26mso%3D0%26u_tz%3D540%26u_his%3D1%26u_java%3D0%26u_h%3D720%26u_w%3D1280%26u_ah%3D680%26u_aw%3D1280%26u_cd%3D24%26u_nplug%3D3%26u_nmime%3D4%26a&cachebuster=120450.19440060356&gdpr=0&gdpr_consent=";
+var ftKeyword_3836498="";
+var ftCustom_3836498="781tN83_HQ7v2Q0G_MQeL9vZHXTa_yRdCfo=";
+var ftSection_3836498="";
+var ftSegment_3836498="um2,w2b";
+var ftSegmentList_3836498=[{s:'um2'},{s:'w2b'}];
+var ftRuleMatch_3836498="0";
+var ftTimestamp_3836498="1573745710";
+var ftGeoC2_3836498="jp";
+var ftGeoState_3836498="17";
+var ftGeoCity_3836498="kanazawa";
+var ftISP_3836498="nsk co. ltd.";
+var ftSpeed_3836498="broadband";
+var ftDMA_3836498="0";
+var ftLong_3836498="136.598";
+var ftLat_3836498="36.5975";
+var ftPostal_3836498="920-0336";
+var ftTimeZone_3836498="900";
+var ftMobileCarrier_3836498="";
+var ftImp3836498 = {};
+ftImp3836498.privacy = "x";
+ftImp3836498.guidAge = "147";
+ftImp3836498.impID = "36DC9BE7-FE4F-3751-6126-3E5B62B91191";
+ftImp3836498.duid = "FT:41887A3F160C2D";
+
+ftImp3836498.ft_tpplid = "";
+ftImp3836498.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/383/3836498/2531957/js/j-3836498-2531957.js" id="ftscript_m3836498" name="ftscript_m3836498"></scr'+'ipt>');

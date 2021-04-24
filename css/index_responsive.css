@@ -1,0 +1,63 @@
+/*IE10の設定*/
+	@media all and (-ms-high-contrast:none) {
+    #season_foods img{
+		width: 100%;
+	}
+	#img_text_1{
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		-ms-transform: translate(-50%,-50%);
+		-webkit-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+		margin:0;
+		padding:0;
+	}
+	}
+
+	/*IE11の設定*/
+	_:-ms-lang(x)::-ms-backdrop, #season_foods img{
+		width: 100%;
+    }
+ 
+    
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {
+    
+}
+
+/* スマホ向けレイアウト */
+@media (max-width: 670px) {
+    .kusi{
+        width: 100%;
+        padding: 30px 40px;
+        display: block;
+    } 
+    .kusi-img{
+        width: 100%;
+        padding: 0;
+    }
+    .kusi-text{
+        width: 100%;
+        margin: 30px 0;
+        text-align: center;
+    }
+
+    .path{
+        display: block;
+        text-align: center;
+    }
+    .path a{
+        margin: 0;
+    }
+    .path img{
+        width: 70%;
+    }
+
+    .couse_path p{
+        display: none;
+    }
+    .couse_path h2{
+        padding-bottom: 0;
+    }
+}

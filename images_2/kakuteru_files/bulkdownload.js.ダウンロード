@@ -1,0 +1,90 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+
+$(document).ready(function(){
+     $('.folder-icon').click(function(event)
+     {
+        $('.folder-counter').slideToggle('normal', function() {
+        	var toggle_view_flg = $('.folder-counter').is(':hidden');
+        	if ( toggle_view_flg == true ) {
+        		sessionStorage.setItem('folder-counter-toggle', '0');
+        	} else {
+        		sessionStorage.setItem('folder-counter-toggle', '1');
+        		$('.folder-counter-box').mCustomScrollbar("update");
+        	}
+        });
+     });
+     $(document).on('click','.img-remove',function(){
+       var imgid=$(this).attr('attrid');
+       var imgtype=$(this).attr('attrtype');
+       var currentelem =$(this);
+        $.ajax({
+            url:'/image/remove_select/',
+            type: 'GET',
+            dataType: 'json',
+            async: true,
+            data: {image_id: imgid,image_type:imgtype},
+            success: function (response) {
+                //alert(response);
+                $('.img-count').html(response.count);
+                currentelem.parent().remove();
+                if(response.count==0) $('.folder-counter').hide();
+            }
+        });
+    });
+});
+function download_select(image_id, title, size, filename) {
+//alert(size);
+    $.ajax( {
+              url:'/image/download_select/'+image_id+'/'+size + '/' + filename,
+                type: 'POST',
+                dataType: 'json',
+                async: true,
+
+                success: function(response) {
+                    //alert(response);
+                    //alert(response.data.id);
+                    //alert(response.data.size);
+                    if(response.status == 'error') alert(response.message);
+                     $('.img-count').html(response.count);
+                     if(response.data){
+                    var image_id=response.data.id;
+                    var image_name=response.data.image;
+                    var image_size=response.data.size;
+
+		   $('.img-count').effect('shake', {distance: '5'});
+                   $('.folder-counter').show();
+
+                    var html="<div class="+"'folder-img-div "+image_size+"'"+" id="+"'"+image_id+"'"+"><img src="+"'"+image_name+"'"+"/>";
+			html+='<span class="img-remove" attrid="' + image_id + '" attrtype="' + size + '"></span>';
+			html+="</div>";
+                    //alert(html);
+                   //alert(count);
+
+                   $('#append_image').prepend(html);
+
+                   $('#thumb-modal-close').trigger('click');
+
+                   }
+
+
+                },
+                error: function() {
+                }
+            });
+    }
+
+    function clear_cart(){
+	$('.img-count').html(0);
+	$(".folder-counter-box").html('');
+
+    }
+
+    function clear_cart_image(){
+        $('.img-count').html(0);
+        $("#append_image").html('');
+    }

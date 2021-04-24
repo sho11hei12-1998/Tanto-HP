@@ -1,0 +1,19 @@
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {
+    .info{
+        display: block;
+        padding: 0 100px;
+    }
+    .info_img{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .info_text{
+        width: 90%;
+    }
+}
+
+/* スマホ向けレイアウト */
+@media (max-width: 670px) {
+
+}

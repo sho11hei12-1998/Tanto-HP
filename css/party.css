@@ -1,0 +1,82 @@
+/*フォントの設定*/
+html {
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+#header_nav a{
+    color: #fff;
+}
+#header_nav a:hover{
+    color: hsla(0, 0%, 100%, 0.363);
+}
+
+#img_text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    font-size: 60px;
+}
+    
+/*おすすめコース*/
+.osusume{
+    padding: 30px 40px;
+}
+.couse_1{
+    display: flex;
+}
+.couse_1_text{
+    width: 50%;
+    padding: 30px;
+    order: 1;
+}
+.couse_1_img{
+    width: 50%;
+    padding: 50px;
+    order: 2;
+}
+
+/*その他のコース*/
+.couse_ex{
+    display: flex;
+    margin: 70px;
+    border-top: 2px solid #515151;
+    border-bottom: 2px solid #515151;
+}
+.couse_2{
+    width: 50%;
+    border-right: 2px solid #515151;
+}
+.couse_3{
+    width: 50%;
+}
+
+/*店内*/
+.inview{
+    padding: 0 150px;
+}
+.inview_1{
+    display: flex;
+}
+.inview_1_img{
+    width: 100%;
+}
+.inview_1 p{
+    width: 50%;
+    padding-top: 100px;
+}
+.inview_2{
+    display: flex;
+}
+.inview_2_img{
+    width: 100%;
+}
+.inview_2 p{
+    width: 50%;
+    padding-top: 100px;
+}
